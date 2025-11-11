@@ -1,0 +1,297 @@
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo {
+    color: white;
+    padding: 0px 0px 0px 20px;
+    font-size: 50px;
+    border: 1px solid white transparent;
+}
+
+.navbar {
+    display: flex;
+    gap: 30px;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+transition: all  1.2s ease ;
+
+}
+
+ button {
+    color: white;
+    padding: 10PX;
+    font-size: 20PX;
+    background-color: black;
+    border: 1px solid gray;
+    margin: 0px 10px 0px 0px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-right: 15px;
+    text-transform: capitalize;
+}
+
+
+a:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+body {
+    background-color: black;
+}
+
+/* header end */
+.title {
+    text-transform: uppercase;
+    color: white;
+    font-size: 50px;
+    font-family: Helvetica;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+#meantext {
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Helvetica;
+    display: block;
+    
+
+}
+
+#parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+
+}
+
+#firstcard {
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: black;
+    border: 3px solid white;
+    transition: all 0.4s ease-in-out;
+
+
+}
+
+.cardheading {
+    color: white;
+    text-transform: capitalize;
+    padding: 0px;
+    display: block;
+    font-family: helvetica;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 27px;
+
+}
+
+#firstcard:hover{
+    transform: scale(1.05);
+    box-shadow: 0 12px 25px rgba(255,255,255,.0.1);
+    background-color: rgb(26, 25, 25);
+}
+
+.cardtext {
+    color: white;
+    font-size: 13px;
+    display: inline-block;
+    font-family: helvetica;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#parenttwo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+svg {
+    height: 50px;
+    width: 50px;
+    color: white;
+    margin: 10px;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+
+hr {
+    margin-top: 50px;
+}
+
+ .contact-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap; 
+  gap: 40px;
+  padding: 10px 10px;
+}
+
+.contactparent {
+    background-color: black;
+    width: 550px;
+    height: 670px;
+    margin-top: 10px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+.contactimg {
+    background-image: url(./img.png);
+    background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 500px;
+  border-radius: 10px;
+  margin-top: 250px;
+  margin-right: 100px;
+}
+.contactheading{
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 45px;
+  margin-top: 20px;
+}
+
+p {
+  color: white;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+label {
+    color: white;
+  display: block;
+  margin-top: 20px;
+}
+.name input {
+    padding: 10px 70px;
+    font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  background-color: rgb(19, 18, 18);
+  border: 1px solid gray;
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+.email input {
+    padding: 10px 70px;
+    font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  background-color: rgb(19, 18, 18);
+  border: 1px solid gray;
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+
+.text input {
+    padding: 10px 70px;
+    font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  background-color: rgb(19, 18, 18);
+  border: 1px solid gray;
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+
+.text input {
+  padding: 10px 70px 50px 70px;
+}
+
+.name input:hover{
+    transform: scale(1.05);
+    box-shadow: 0 12px 25px rgba(255,255,255,0.1);
+}
+
+
+
+
+.email input:hover{
+      transform: scale(1.05);
+  box-shadow: 0 12px 25px rgba(255,255,255,0.1);
+}
+
+.text input:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 25px rgba(255,255,255,0.1);
+}
+
+#send {
+  color: rgb(70, 69, 69);
+  padding: 10px 110px;
+  font-size: 20px;
+  background-color: rgb(19, 18, 18);
+  border: 1px solid gray;
+  margin: 20px 0 0 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-transform: capitalize;
+  transition: all 0.4s ease-in-out;
+}
+
+#send:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 25px rgba(255,255,255,0.1);
+}
+
+footer{
+    background-color: black;
+    height: 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+footer span{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+}
